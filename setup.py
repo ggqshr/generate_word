@@ -14,4 +14,7 @@ setuptools.setup(
     entry_points={
         'console_scripts': ['generate_word = generate_word.generate_week_report:main']
     },
+    install_requires=[
+         'python-docx',
+     ],
 )
